@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al Aire libre - Esencia Buenos Aires</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./../css/style.css">
     <link rel="shortcut icon" href="./../imagenes/logo-principal.png" type="image/x-icon">
 </head>
@@ -12,23 +13,23 @@
 <body>
 
     <header>
-        <div>
-            <a href="./../index.html"><img src="./../imagenes/logo-principal.png" alt="Logo turismo"></a>
+        <div class="nav bg-white d-flex justify-content-center p-2 w-25 h-100 mx-auto">
+            <a href="./../index.html"><img src="./../imagenes/logo-principal.png" alt="Logo turismo" class="logo-principal img-fluid"></a>
         </div>
         <nav>
-            <ul class="barra-de-navegacion">
-                <li><a href="./../index.html">Inicio</a></li>
-                <li><a href="./destacados.html">Destacados</a></li>
-                <li><a href="./arteycultura.html">Arte y cultura</a></li>
-                <li><a href="./alairelibre.html">Al aire libre</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+            <ul class="navbar d-flex justify-content-center list-unstyled h4 shadow p-3 m-0 bg-body-secondary rounded">
+                <li class="nav-item"><a class="nav-link" href="./../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./destacados.html">Destacados</a></li>
+                <li class="nav-item"><a class="nav-link" href="./arteycultura.html">Arte y cultura</a></li>
+                <li class="nav-item"><a class="nav-link" href="./alairelibre.html">Al aire libre</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="banner-container">
-            <img src="./../imagenes/banner-alairelibre.png" alt="Banner de Buenos Aires">
+        <div class="banner-container d-flex justify-content-center">
+            <img src="./../imagenes/banner-alairelibre.png" alt="Banner de Buenos Aires" class="banner w-100 rounded-4">
         </div>
 
         <section class="section-places-container">
@@ -98,9 +99,10 @@
     </main>
 
     <footer>
-        <p>© 2023 Esencia Buenos Aires. Todos los derechos reservados.</p>
+        <p class="text-center m-3 lead">© 2024 Esencia Buenos Aires. Todos los derechos reservados.</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 
 </html>

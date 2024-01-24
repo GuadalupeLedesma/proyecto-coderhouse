@@ -13,18 +13,29 @@ a{
     cursor: pointer;
 }
 
-header {
+/* header {
     background-color: white;
-}
+} */
 
-header div img {
-    width: 175px;
+header div{
+    /* width: 25%; */
+} 
+
+header div img{
+    /* max-width: 175px; */
+    /* width: 175px;
     display:block;
     margin:auto;
-    padding: 0px;
+    padding: 0px; */
 }
 
-.barra-de-navegacion {
+.logo-principal{
+    max-width: 175px;
+    width: 100%;
+    height: auto;
+}
+
+/* .barra-de-navegacion {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -34,19 +45,19 @@ header div img {
     padding: 15px;
     margin: 0px;
     box-shadow: 0px 5px 10px rgb(190, 190, 190) inset;
-}
+} */
 
-.barra-de-navegacion li {
+.navbar li {
     padding: 0.25rem 2rem;
 }
 
-.barra-de-navegacion li a {
+.navbar li a {
     text-decoration: none;
     color:black;
     font-family: 'HankRnd';
 }
 
-.barra-de-navegacion li a:hover {
+.navbar li a:hover {
     color: rgba(188,160,154,255)
 }
 
@@ -55,9 +66,13 @@ main {
 }
 
 .banner-container img {
-    height: 250px;
-    width: 100%;
-    border-radius: 15px;
+    /* height: 250px; */
+    /* width: 100%;
+    border-radius: 15px; */
+}
+
+.banner{
+    max-width: 1fr;
 }
 
 .inicio-container {
@@ -261,7 +276,7 @@ form {
 }
 
 footer p {
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Trebuchet MS';
+    /* text-align: center; */
+    /* margin-bottom: 20px; */
+    /* font-family: 'Trebuchet MS'; */
 }
