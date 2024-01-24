@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HankRnd';
+    src: url(./fonts/HankRnd-Regular.ttf);
+}
+
+a{
+    cursor: pointer;
+}
+
+header {
+    background-color: white;
+}
+
+header div img {
+    width: 175px;
+    display:block;
+    margin:auto;
+    padding: 0px;
+}
+
+.barra-de-navegacion {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    background: rgb(241, 241, 241);
+    padding: 15px;
+    margin: 0px;
+    box-shadow: 0px 5px 10px rgb(190, 190, 190) inset;
+}
+
+.barra-de-navegacion li {
+    padding: 0.25rem 2rem;
+}
+
+.barra-de-navegacion li a {
+    text-decoration: none;
+    color:black;
+    font-family: 'HankRnd';
+}
+
+.barra-de-navegacion li a:hover {
+    color: rgba(188,160,154,255)
+}
+
+main {
+    margin: 30px 100px;
+}
+
+.banner-container img {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.inicio-container {
+    margin: 10px;
+    padding: 10px;
+}
+
+.section-inicio {
+    display: inline-flex;
+    align-items: center;
+    margin: 10px;
+    font-family: 'HankRnd';
+}
+
+.section-inicio div {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-inicio img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.section-inicio div h1 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.section-inicio a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(188,160,154,255);
+    color: black;
+}
+
+.section-inicio div h1 a:hover {
+    color: rgba(188,160,154,255)
+}
+
+.section-inicio div p {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 45px;
+}
+
+.section-places-container {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+section article img {
+    width: 95%;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: block;
+}
+
+main section article h3 {
+    margin: 10px;
+    font-size: 23px;
+    font-family: 'HankRnd';
+}
+
+main section article p {
+    margin: 10px;
+}
+
+.places-container {
+    justify-self: center;
+    border: 0.5px solid rgb(219, 219, 219);
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(248, 248, 248);
+}
+
+.places-location {
+    font-size: 17px;
+    font-family: 'Trebuchet MS';
+}
+
+.places-location a {
+    color: rgb(82, 82, 82);
+}
+
+.places-location a:hover {
+    color: rgba(188,160,154,255)
+}
+
+.places-description {
+    font-family: 'HankRnd';
+}
+
+.contact-container {
+    margin: 15px;
+    padding: 15px;
+}
+
+.div-contact-title,
+.div-contact-form {
+    display: inline-flex;
+    margin: 30px;
+    font-family: 'HankRnd';
+    width: 45%;
+}
+
+.div-contact-title {
+    justify-content: right;
+    padding: 30px;
+}
+
+.div-contact-form {
+    justify-content: left;
+    padding: 10px;
+}
+
+.title-contact-container h1 {
+    font-size: 35px;
+    margin: auto auto 20px auto;
+}
+
+.title-contact-container img {
+    width: 30px;
+}
+
+.contact-location,
+.contact-mail {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.contact-location p,
+.contact-mail p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contact-location a,
+.contact-mail a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(188,160,154,255);
+}
+
+.contact-location a:hover,
+.contact-mail a:hover {
+    color: rgba(188,160,154,255);
+}
+
+form {
+    margin: 0 auto;
+    width: 350px;
+    background-color: rgb(238, 238, 238);
+    padding: 15px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.form-contact-container h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 5px;
+}
+
+.form-contact-container label {
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-contact-container .field {
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    margin: 8px 5px 13px 5px;
+    padding: 5px;
+    width: 95%;
+}
+
+.form-contact-container .input:hover {
+    border-color: rgba(188,160,154,255);
+}
+
+.form-contact-container .send-field {
+    width: 95%;
+    background-color: rgb(190, 190, 190);
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.form-contact-container .send-field:hover {
+    background-color: rgba(188,160,154,255);
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS';
+}
