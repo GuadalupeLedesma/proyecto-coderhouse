@@ -13,32 +13,11 @@ a{
     cursor: pointer;
 }
 
-/* header {
-    background-color: white;
-} */
-
-header div{
-    /* width: 25%; */
-} 
-
 .logo-principal{
     max-width: 175px;
     width: 100%;
     height: auto;
 }
-
-/* .barra-de-navegacion {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    text-align: center;
-    font-size: 23px;
-    background: rgb(241, 241, 241);
-    padding: 15px;
-    margin: 0px;
-    box-shadow: 0px 5px 10px rgb(190, 190, 190) inset;
-} */
-
 .navbar li {
     padding: 0.25rem 2rem;
 }
@@ -55,12 +34,6 @@ header div{
 
 main {
     margin: 30px 100px;
-}
-
-.banner-container img {
-    /* height: 250px; */
-    /* width: 100%;
-    border-radius: 15px; */
 }
 
 .banner{
