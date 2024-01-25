@@ -54,7 +54,7 @@ main {
     box-sizing: border-box;
     max-width: 50%;
     width: 100%;
-    padding: 10px;
+    padding: 1%;
     text-align: center;
 }
 
@@ -232,6 +232,11 @@ form {
     main{
         margin: 15px 15px;
     }
+
+    li.nav-item{
+        padding: 1% 2%;
+    }
+
     .inicio-container p{
         font-size: 16px;
     }
