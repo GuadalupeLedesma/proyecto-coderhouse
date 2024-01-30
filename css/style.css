@@ -36,10 +36,6 @@ main {
     margin: 3% 5%;
 }
 
-.banner{
-    max-width: 1fr;
-}
-
 .inicio-container {
     margin: 1rem;
     padding: 10px;
@@ -241,4 +237,78 @@ form {
         font-size: 16px;
     }
     
+}
+
+@media screen and (max-width:767px) {
+    html{
+        font-size: 0.9rem;
+    }
+
+    main{
+        margin: 2%;
+    }
+
+    .logo-principal{
+        max-width: 150px;
+    }
+
+    .section-banner-container{
+        padding: 0.6rem;
+    }
+
+    .banner{
+        height: 8rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .section-places-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .div-inicio-container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .inicio-container{
+        margin: auto;
+    }
+
+    .div-contact-title{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .div-contact-title h1{
+        text-align: center;
+    }
+
+    .div-contact-form{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    form {        
+        width: 100%;        
+    }
+
+    .form-contact-container .field {
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-contact-container .send-field {
+        width: 100%;
+    }
+
+    footer p.lead{
+        font-size: 0.9rem;
+        margin: 0.8rem;
+    }
 }
