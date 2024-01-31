@@ -13,21 +13,6 @@ a{
     cursor: pointer;
 }
 
-.logo-principal{
-    max-width: 175px;
-    width: 100%;
-    height: auto;
-}
-.navbar li {
-    padding: 0.25rem 2rem;
-}
-
-.navbar li a {
-    text-decoration: none;
-    color:black;
-    font-family: 'HankRnd';
-}
-
 .navbar li a:hover {
     color: rgba(188,160,154,255)
 }
@@ -44,6 +29,12 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.div-div-inicio-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .div-inicio-container{
@@ -72,7 +63,7 @@ main {
 .div-inicio-container p {
     font-size: 1.1rem;
     margin: 10px;
-    padding: 10px, 2rem;
+    padding: 10px 2rem;
 }
 
 .section-places-container {
@@ -137,7 +128,6 @@ main section article p {
 .contact-container {
     margin: 1%;
     padding: 1%;
-    /* align-items: center; */
 }
 
 .div-contact-title,
@@ -229,10 +219,6 @@ form {
         margin: 15px 15px;
     }
 
-    li.nav-item{
-        padding: 1% 2%;
-    }
-
     .inicio-container p{
         font-size: 16px;
     }
@@ -245,11 +231,7 @@ form {
     }
 
     main{
-        margin: 2%;
-    }
-
-    .logo-principal{
-        max-width: 150px;
+        margin: 3%;
     }
 
     .section-banner-container{
@@ -258,12 +240,7 @@ form {
 
     .banner{
         height: 8rem;
-        width: 100%;
         object-fit: cover;
-    }
-
-    .section-places-container{
-        grid-template-columns: repeat(1, 1fr);
     }
 
     .div-inicio-container {
@@ -273,6 +250,14 @@ form {
 
     .inicio-container{
         margin: auto;
+    }
+
+    #inicio-container-special{
+        flex-direction: column-reverse;
+    }
+
+    .section-places-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .div-contact-title{
@@ -308,7 +293,7 @@ form {
     }
 
     footer p.lead{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin: 0.8rem;
     }
 }
