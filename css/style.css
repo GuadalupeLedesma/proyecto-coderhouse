@@ -290,6 +290,7 @@ form {
 
     .form-contact-container .send-field {
         width: 100%;
+        margin: 0;
     }
 
     footer p.lead{
