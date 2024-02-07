@@ -1,0 +1,55 @@
+@import "mixin";
+@import "../base/variables";
+
+main {
+
+    div{
+        h1{
+            text-align: center;
+            font-family: 'HankRnd';
+            @include mp(15px 0px, 10px 0px);
+        }
+    }
+
+    .inicio-container {
+        @include mp (1rem, 10px);
+        font-family: 'HankRnd';
+        @include flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .div-div-inicio-container {
+            @include flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .div-inicio-container {
+                box-sizing: border-box;
+                max-width: 50%;
+                width: 100%;
+                padding: 1%;
+                text-align: center;
+
+                img {
+                    max-width: 100%;
+                    border-radius: 1rem;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    border-bottom: 1px solid $color-rosa;
+                }
+
+                h2 {
+                    @include hover;
+                }
+
+                p {
+                    font-size: 1.1rem;
+                    @include mp(10px, 1rem);
+                }
+            }
+        }
+    }
+}

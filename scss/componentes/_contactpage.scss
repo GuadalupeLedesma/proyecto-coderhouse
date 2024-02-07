@@ -1,0 +1,65 @@
+@import "mixin";
+@import "../base/variables";
+
+main {
+    .contact-container {
+        @include mp(1%, 1%);
+
+        .div-contact-title {
+            @include divcontact;
+            justify-content: right;
+
+            .title-contact-container {
+                .contact-title {
+                    h1 {
+                        font-size: 35px;
+                        margin: auto auto 20px auto;
+                        text-align: left
+                    }
+                }
+            }
+
+            .contact-mail {
+                @include contact-mail-location;
+            }
+
+            .contact-location {
+                @include contact-mail-location;
+            }
+        }
+
+        .div-contact-form {
+            @include divcontact;
+            justify-content: left;
+
+            .form-contact-container {
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    width: 350px;
+
+                    div {
+                        .field {
+                            outline: none;
+                            border: 0;
+                            border-radius: 8px;
+                            @include mp(8px 5px 13px 5px, 5px);
+                            width: 95%;
+                        }
+
+                        .send-field {
+                            width: 95%;
+                            cursor: pointer;
+                            background-color: lightgray;
+                        }
+                        input.send-field:hover {
+                            background-color: $color-rosa;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

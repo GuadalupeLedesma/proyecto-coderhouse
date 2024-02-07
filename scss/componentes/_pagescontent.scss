@@ -1,0 +1,55 @@
+@import "mixin";
+@import "../base/variables";
+
+main {
+    div{
+        h1{
+            text-align: center;
+            font-family: 'HankRnd';
+            @include mp(15px 0px, 10px 0px);
+        }
+    }
+    .section-places-container {
+        display: grid;
+        margin: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1.5rem;
+
+        .places-container {
+            justify-self: center;
+            border-radius: 15px;
+            border: 0.5px solid rgb(219, 219, 219);
+            background-color: rgb(248, 248, 248);
+            padding: 5px;
+
+            img {
+                width: 95%;
+                border-radius: 15px;
+                margin: 10px auto;
+                display: block;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+                margin: 0.8rem;
+            }
+
+            p {
+                margin: 10px;
+            }
+
+            .places-location {
+                font-size: 17px;
+                font-family: 'Trebuchet MS';
+                a{
+                    color: $color-gris;
+                }
+            }
+
+            .places-description {
+                font-family: 'HankRnd';
+            }
+        }
+    }
+}

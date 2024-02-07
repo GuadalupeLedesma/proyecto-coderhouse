@@ -1,0 +1,28 @@
+@import "componentes/reset";
+@import "base/variables";
+@import "componentes/mixin";
+
+@font-face {
+    font-family: 'HankRnd';
+    src: url(../css/fonts/HankRnd-Regular.ttf);
+}
+
+a {
+    cursor: pointer;
+}
+
+html{
+    @include hover;
+}
+
+main {
+    margin: 1% 5%;
+}
+
+@import "componentes/inicio";
+
+@import "componentes/pagescontent";
+
+@import "componentes/contactpage";
+
+@import "componentes/mediaqueries";
