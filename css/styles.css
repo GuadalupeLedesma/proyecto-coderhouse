@@ -222,12 +222,13 @@ main .contact-container .div-contact-form .form-contact-container form div input
   html main .inicio-container {
     margin: auto;
   }
-  html main .inicio-container .div-div-inicio-container #inicio-container-special {
+  html main .inicio-container #inicio-container-special {
     flex-direction: column-reverse;
   }
   html main .inicio-container .div-div-inicio-container .div-inicio-container {
     max-width: 100%;
     width: 100%;
+    padding: 15px;
   }
   html main .section-places-container {
     grid-template-columns: repeat(1, 1fr);

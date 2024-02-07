@@ -32,13 +32,15 @@
             }
             .inicio-container{
                 margin: auto;
+                #inicio-container-special{
+                    flex-direction: column-reverse;
+                }
                 .div-div-inicio-container{
-                    #inicio-container-special{
-                        flex-direction: column-reverse;
-                    }
                     .div-inicio-container{
                         max-width: 100%;
                         width: 100%;
+                        padding: 15px;
+                        
                     }
                 }
             }
